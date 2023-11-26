@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffeeshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link type="image/x-icon" href="assets/beans.png" rel="shortcut icon">
+</head>
+<body>
+    <header>
+        <ul class="nav justify-content-center">
+            <img src="assets/logo.png" alt="logo" class="logo">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" id="link">Главная</a>
+            </li>
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" id="link">Каталог</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Кофе</a></li>
+                <li><a class="dropdown-item" href="#">Чай</a></li>
+                <li><a class="dropdown-item" href="#">Какао</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Кефирчик</a></li>
+            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="link">Акции</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true" id="contacts">Контакты</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="card bg-dark text-white">
+            <img src="assets/banner.jpg" class="card-img" alt="banner">
+            <div class="card-img-overlay">
+                <h1 class="card-title">Акция</h5>
+                <h4 class="card-text">Выгодная акция: купи две пачки кофе <br> и получи третью в подарок!</h4>
+                <p class="card-text">Закончится 19 декабря 2023 года</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/coffee.jpg" class="card-img-top" alt="coffee">
+                <div class="card-body">
+                    <h5 class="card-title">Кофе эспрессо</h5>
+                    <p class="card-text">Данный кофейный напиток готовится на основе эспрессо: с добавлением воды и молока в разных пропорциях</p>
+                    <div class="pricebuy">
+                        <p class="price">450 руб</p>
+                        <a href="#" class="btn btn-primary" id="btn">Купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/tea.jpg" class="card-img-top" alt="tea">
+                <div class="card-body">
+                    <h5 class="card-title">Зелёный чай</h5>
+                    <p class="card-text">Поддерживает уровень сахара в крови</p>
+                    <div class="pricebuy">
+                        <p class="lowprice">452 руб</p>
+                        <a href="#" class="btn btn-primary" id="btn">Купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/cacao.jpg" class="card-img-top" alt="cacao">
+                <div class="card-body">
+                    <h5 class="card-title">Какао криолло</h5>
+                    <p class="card-text">Какао высокого качества, берет свое начало в Мексике и Центральной Америке</p>
+                    <div class="pricebuy">
+                        <p class="price">220 руб</p>
+                        <a href="#" class="btn btn-primary" id="btn">Купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/milk.jpg" class="card-img-top" alt="milk">
+                <div class="card-body">
+                    <h5 class="card-title">Кефир однодневный</h5>
+                    <p class="card-text">Однодневный кефир очень свежий, ему не более 1 дня с момента приготовления</p>
+                    <div class="pricebuy">
+                        <p class="price">69 руб</p>
+                        <a href="#" class="btn btn-primary" id="btn">Купить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav aria-label="Page navigation example" class="alignment">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" id="color">Домой</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#" id="color">1</a></li>
+                <li class="page-item"><a class="page-link" href="#" id="color">2</a></li>
+                <li class="page-item"><a class="page-link" href="#" id="color">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" id="color">Далее</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

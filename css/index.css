@@ -1,0 +1,109 @@
+body {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #524f7c;
+    user-select: none;
+}
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #c5c5c5;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #33354d, #7774b3);
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #464966, #928fcf);
+}
+body::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(180deg, #5b5e80, #b5b2f0);
+}
+header {
+    background-color: #333549;
+    border-bottom: 2px dashed #2a2d4b;
+    z-index: 1;
+    position: sticky;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+}
+#contacts {
+    color: rgb(99, 94, 129);
+}
+#link {
+    color: #ABBEDA;
+}
+.dropdown-menu {
+    background-color: #AFB4DC;
+}
+.dropdown-menu :hover {
+    background-color: #cfd2e9;
+}
+.card-img {
+    height: 500px;
+    object-fit: cover;
+}
+.card-img-overlay {
+    text-align: end;
+    font-style: italic;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.card {
+    background-color: #bbc1ec;
+    margin: 10px;
+}
+#btn {
+    background-color: #3E5490;
+    border-color: #2a3e77;
+    transition: 500ms;
+}
+#btn:hover {
+    background-color: #334475;
+    border-color: #233361;
+    transition: 500ms;
+}
+#btn:active {
+    background-color: #27335a;
+    border-color: #1d294e;
+    transition: 500ms;
+}
+.lowprice {
+    font-size: medium;
+    color: rgb(96, 128, 34);
+}
+.pricebuy {
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.alignment {
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+}
+.page-link {
+    color: rgb(96, 91, 124);
+}
+#color {
+    background-color: #a9adcf;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 100px auto 100px auto;
+    margin: 10px 0px 0px 0px;
+    border-top: 2px dashed #2a2d4b;
+}
