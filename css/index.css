@@ -53,8 +53,15 @@ header {
     object-fit: cover;
 }
 .card-img-overlay {
+    display: block;
     text-align: end;
     font-style: italic;
+    border-left: 2px dashed #b0b4e0;
+    border-bottom: 2px dashed #b0b4e0;
+    border-radius: 5px;
+}
+.card-img-overlay .text {
+    color: #b0b4e0;
 }
 #cards {
     display: flex;
@@ -64,6 +71,10 @@ header {
 .card {
     background-color: #bbc1ec;
     margin: 10px;
+}
+.card-text {
+    font-weight: 200;
+    color: #656994;
 }
 #btn {
     background-color: #3E5490;
