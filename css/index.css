@@ -1,7 +1,7 @@
 body {
     font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #524f7c;
+    background-color: #495151;
     user-select: none;
     overflow-x: hidden; /* отключает горизонтальный скролл */
     overflow-y: scroll; /* включает вертикальный скролл */
@@ -16,19 +16,21 @@ body::-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: linear-gradient(180deg, #33354d, #7774b3);
+    background: linear-gradient(180deg, #70776B, #858577);
 }
 body::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(180deg, #464966, #928fcf);
+    background: linear-gradient(180deg, #5d6358, #747468);
 }
 body::-webkit-scrollbar-thumb:active {
-    background: linear-gradient(180deg, #5b5e80, #b5b2f0);
+    background: linear-gradient(180deg, #4d524a, #5c5c52);
 }
 header {
-    background-color: #333549;
-    border-bottom: 2px dashed #2a2d4b;
+    background-color: rgba(0, 0, 0, 0.507);;
+    border-bottom: 2px solid #000000;
     z-index: 1;
     position: sticky;
+    top: 0px;
+    margin-top: 0px;
 }
 .logo {
     display: flex;
@@ -37,16 +39,16 @@ header {
     height: 50px;
 }
 #contacts {
-    color: rgb(99, 94, 129);
+    color: rgb(202, 202, 202);
 }
 #link {
-    color: #ABBEDA;
+    color: #ffffff;
 }
 .dropdown-menu {
-    background-color: #AFB4DC;
+    background-color: #70776B;
 }
 .dropdown-menu :hover {
-    background-color: #cfd2e9;
+    background-color: #879181;
 }
 .card-img {
     height: 500px;
@@ -56,8 +58,8 @@ header {
     display: block;
     text-align: end;
     font-style: italic;
-    border-left: 2px dashed #b0b4e0;
-    border-bottom: 2px dashed #b0b4e0;
+    border-left: 2px dashed #70776B;
+    border-bottom: 2px dashed #70776B;
     border-radius: 5px;
 }
 .card-img-overlay .text {
@@ -69,31 +71,31 @@ header {
     justify-content: center;
 }
 .card {
-    background-color: #bbc1ec;
+    background-color: #70776B;
     margin: 10px;
 }
 .card-text {
     font-weight: 200;
-    color: #656994;
+    color: #202020;
 }
 #btn {
-    background-color: #3E5490;
-    border-color: #2a3e77;
+    background-color: #858577;
+    border-color: #77776b;
     transition: 500ms;
 }
 #btn:hover {
-    background-color: #334475;
-    border-color: #233361;
+    background-color: #77776b;
+    border-color: #616158;
     transition: 500ms;
 }
 #btn:active {
-    background-color: #27335a;
-    border-color: #1d294e;
+    background-color: #616158;
+    border-color: #55554e;
     transition: 500ms;
 }
 .lowprice {
     font-size: medium;
-    color: rgb(96, 128, 34);
+    color: rgb(67, 80, 43);
 }
 .pricebuy {
     font-size: medium;
@@ -109,14 +111,18 @@ header {
     padding: 10px;
 }
 .page-link {
-    color: rgb(96, 91, 124);
+    color: #313131;
+}
+.page-link:hover {
+    color: #252525;
 }
 #color {
-    background-color: #a9adcf;
+    background-color: #70776B;
+    border-color: #5b6157;
 }
 footer {
     background-color: rgba(0, 0, 0, 0.507);
     padding: 100px auto 100px auto;
     margin: 10px 0px 0px 0px;
-    border-top: 2px dashed #2a2d4b;
+    border-top: 2px solid #000000;
 }
